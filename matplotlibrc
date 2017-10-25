@@ -410,6 +410,12 @@ ytick.direction      : in    # direction: in, out, or inout
 #grid.linestyle   :   -         # solid
 #grid.linewidth   :   0.8       # in points
 #grid.alpha       :   1.0       # transparency, between 0.0 and 1.0
+## Old grids!
+grid.color       :   k       # grid color
+grid.linestyle   :   :       # dotted
+grid.linewidth   :   0.5     # in points
+# I think this might be cool?
+grid.alpha       :   0.5
 
 ### Legend
 #legend.loc           : best
@@ -594,7 +600,7 @@ figure.autolayout : True  # When True, automatically adjust subplot
 #keymap.pan : p                      # pan mnemonic
 #keymap.zoom : o                     # zoom mnemonic
 #keymap.save : s                     # saving current figure
-#keymap.quit : ctrl+w, cmd+w         # close the current figure
+keymap.quit : ctrl+w, cmd+w, q         # close the current figure
 #keymap.grid : g                     # switching on/off a grid in current axes
 #keymap.yscale : l                   # toggle scaling of y-axes ('log'/'linear')
 #keymap.xscale : L, k                # toggle scaling of x-axes ('log'/'linear')
